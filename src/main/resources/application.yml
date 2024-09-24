@@ -1,0 +1,16 @@
+spring:
+  cloud:
+    config:
+      enabled: false
+cloud:
+  aws:
+    credentials:
+      access-key: ANUJDEKAVADIYAEXAMPLE
+      secret-key: 2QvM4/Tdmf38SkcD/qalvXO4EXAMPLEKEY
+    region:
+      static: us-east-1
+    endpoint:
+      uri: http://localhost:4566
+events:
+  topic: notification-topic
+  queue: notification-queue
